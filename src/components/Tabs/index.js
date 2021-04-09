@@ -15,9 +15,9 @@ export default function Tabs() {
   return (
     <Container>
       <TabsContainer>
-        {tabsItens.map((tab)=>{
+        {tabsItens.map((tab, idx)=>{
           return (
-            <TabItem>
+            <TabItem key={idx}>
               <Icon name={tab.icon} size={24} color="#fff"></Icon>
               <TabText>{tab.text}</TabText>
             </TabItem>
