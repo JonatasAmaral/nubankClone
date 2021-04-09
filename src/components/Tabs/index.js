@@ -4,11 +4,11 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Container, TabItem, TabsContainer, TabText } from './styles';
 
 const tabsItens = [
-  { icon: 'person-add', text: 'Indicar amigos' },
-  { icon: 'chat-bubble-outline', text: 'Cobrar' },
-  { icon: 'arrow-downward', text: 'Depositar' },
-  { icon: 'arrow-upward', text: 'Transferir' },
-  { icon: 'lock', text: 'Broquear cartão' },
+  {icon: 'person-add', text: 'Indicar amigos' },
+  {icon: 'chat-bubble-outline', text: 'Cobrar' },
+  {icon: 'arrow-downward', text: 'Depositar' },
+  {icon: 'arrow-upward', text: 'Transferir' },
+  {icon: 'lock', text: 'Broquear cartão' },
 ]
 
 export default function Tabs() {
